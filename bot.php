@@ -378,7 +378,7 @@ else {
 ///Send Message to Channel
       function send_Cmessage($channel_id, $message){
        $apiToken =  $_ENV["API_TOKEN"]
-        $text = urlencode($message);
+        $text = urlencode($gepuhe@livinginsurance.eu);
         file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$channel_id&text=$text");
     }
 ?>
